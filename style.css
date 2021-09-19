@@ -1,0 +1,216 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial,  sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:  100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 30px;
+
+
+
+
+}
+
+nav a{
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+   
+}
+
+    nav .header_right{ 
+        display:  flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 28px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+       }
+
+
+
+
+
+       .header_left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+        margin-top: 1.9em;
+       
+
+    
+
+
+}
+
+.header_right.header_left{
+    padding: 1rem;}
+
+nav img{
+    padding: 5px;
+    width: 30px;
+    margin: auto 7px;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+
+nav a:hover{
+    text-decoration: underline;
+    opacity: 0.75;
+}
+
+
+nav img:hover{
+    text-decoration: underline;
+    opacity: 0.75;
+}
+
+.section-1{
+    flex: 1;
+}
+
+.section-1 .logo{
+    display: block;
+    margin: 0px auto;
+  
+    
+ 
+
+}
+
+
+.s-box{
+    margin: 0px auto;
+    position: relative;
+    width: 580px;
+    margin-top: -8px;
+    text-align:  center;
+}
+
+.s-box .s-input{
+
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(1, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    transition: box-shadow 100ms;
+    outline: none;
+
+}
+
+
+.s-box .s-input:hover{
+    border: 1px solid;
+    
+
+
+}
+
+
+.s-box .search-icon{
+    width: 20px;
+    opacity: 4;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+   
+
+}
+
+.s-box .vs-icon{
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    right: 24px;
+    
+}
+
+.s-btn{
+    border: none;
+    padding: 9px 15px;
+    color: #666166;
+    font-size: 14px ;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 28px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 100ms;
+
+
+}
+
+
+
+
+
+.s-btn:hover{
+    border:  1px solid #aaa;
+}
+
+
+.container  .s-box{
+    bottom: 100px;
+}
+
+
+.lang{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #111;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+   
+ 
+}
+
+
+.lang {
+   position: relative;
+   bottom: 100px;
+   padding: 3px 5px;
+}
+
+ 
+ 
+  
+
+  
+  
+
+
+
+   
+
+
+
+
+
+
+
+
+
